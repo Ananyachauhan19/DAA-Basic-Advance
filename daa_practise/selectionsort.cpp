@@ -10,9 +10,9 @@ void selection_sort(vector<int>& vec, int n){
                 minIndex = j;
             }
         }
-        int temp = vec[i];
+        int t = vec[i];
         vec[i] = vec[minIndex];
-        vec[minIndex] = temp;
+        vec[minIndex] = t;
     }
 }
 
